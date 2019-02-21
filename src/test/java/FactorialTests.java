@@ -22,4 +22,9 @@ public class FactorialTests {
             assertEquals(3628800, Factorial.factorial(10));
     }
 
+    @Test
+            public void Test4Failure(){
+            assertEquals(23, Factorial.factorial(5));
+    }
+
 }
